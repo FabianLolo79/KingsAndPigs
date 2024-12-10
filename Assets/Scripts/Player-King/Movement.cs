@@ -11,10 +11,10 @@ public class Movement : MonoBehaviour
     [Range(0, 0.3f)][SerializeField] private float _moveSmooth;
     private Vector3 _speedInZ = Vector3.zero;
 
-
     private Rigidbody2D _rb2D;
     private Vector2 _movement;
     private bool _isFacingRight = true;
+
 
     void Start()
     {
@@ -47,5 +47,23 @@ public class Movement : MonoBehaviour
         Vector3 velocidadObjetivo = new Vector2(mover, _rb2D.velocity.y);
         _rb2D.velocity = Vector3.SmoothDamp(_rb2D.velocity, velocidadObjetivo, ref _speedInZ, _moveSmooth);
         //_movement = new Vector2(_horizontalInput, 0f);
+
+        //Flip character
+        if (_horizontalInput < 0f && _isFacingRight == true)
+        {
+            Flip();
+        }
+        else if (_horizontalInput > 0f && _isFacingRight == false)
+        {
+            Flip();
+        }
+    }
+
+    private void Flip()
+    {
+        _isFacingRight = !_isFacingRight;
+        float localScaleX = transform.localScale.x;
+        localScaleX = localScaleX * -1f;
+        transform.localScale = new Vector3(localScaleX, transform.localScale.y, transform.localScale.z);
     }
 }
