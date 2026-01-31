@@ -44,8 +44,8 @@ public class Movement : MonoBehaviour
 
     private void Move(float mover)
     {
-        Vector3 velocidadObjetivo = new Vector2(mover, _rb2D.velocity.y);
-        _rb2D.velocity = Vector3.SmoothDamp(_rb2D.velocity, velocidadObjetivo, ref _speedInZ, _moveSmooth);
+        Vector3 velocidadObjetivo = new Vector2(mover, _rb2D.linearVelocity.y);
+        _rb2D.linearVelocity = Vector3.SmoothDamp(_rb2D.linearVelocity, velocidadObjetivo, ref _speedInZ, _moveSmooth);
         //_movement = new Vector2(_horizontalInput, 0f);
 
         //Flip character
