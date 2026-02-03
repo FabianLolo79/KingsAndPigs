@@ -160,7 +160,7 @@ GameObject:
   m_Component:
   - component: {fileID: 268269048}
   m_Layer: 0
-  m_Name: ----------------------------_2
+  m_Name: ----------------------------
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -192,8 +192,9 @@ GameObject:
   - component: {fileID: 530181640}
   - component: {fileID: 530181642}
   - component: {fileID: 530181641}
+  - component: {fileID: 530181643}
   m_Layer: 0
-  m_Name: Player-King
+  m_Name: Jugador
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -288,6 +289,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!114 &530181643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 530181639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1070282d49b244ab0078238ba061ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb2D: {fileID: 530181642}
+  velocidadMovimiento: 5
 --- !u!1 &717125013
 GameObject:
   m_ObjectHideFlags: 0
@@ -453,7 +468,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1362191179}
   m_Layer: 0
-  m_Name: Visuals
+  m_Name: Visuales
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -650,7 +665,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1436619027}
   m_Layer: 0
-  m_Name: ----------------------------_1
+  m_Name: ----------------------------
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -997,6 +1012,7 @@ SceneRoots:
   - {fileID: 721463673}
   - {fileID: 530181640}
   - {fileID: 1436619027}
+  - {fileID: 1380613440}
   - {fileID: 268269048}
   - {fileID: 717125014}
   - {fileID: 1392420450}
@@ -1006,4 +1022,3 @@ SceneRoots:
   - {fileID: 1024170299}
   - {fileID: 228277574}
   - {fileID: 1794906006}
-  - {fileID: 1380613440}
