@@ -3,7 +3,7 @@ guid: 186a5fd96bae0bc4fa0939db020b50ee
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -67,7 +67,7 @@ TextureImporter:
   swizzle: 50462976
   cookieLightType: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -80,7 +80,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -93,7 +93,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -106,7 +106,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -119,7 +119,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -139,13 +139,14 @@ TextureImporter:
       name: Idle (78x58)_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 78
-        height: 58
+        x: 8
+        y: 14
+        width: 39
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -160,13 +161,14 @@ TextureImporter:
       name: Idle (78x58)_1
       rect:
         serializedVersion: 2
-        x: 78
-        y: 0
-        width: 78
-        height: 58
+        x: 86
+        y: 14
+        width: 39
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -181,13 +183,14 @@ TextureImporter:
       name: Idle (78x58)_2
       rect:
         serializedVersion: 2
-        x: 156
-        y: 0
-        width: 78
-        height: 58
+        x: 164
+        y: 14
+        width: 39
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -202,13 +205,14 @@ TextureImporter:
       name: Idle (78x58)_3
       rect:
         serializedVersion: 2
-        x: 234
-        y: 0
-        width: 78
-        height: 58
+        x: 242
+        y: 14
+        width: 39
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -223,13 +227,14 @@ TextureImporter:
       name: Idle (78x58)_4
       rect:
         serializedVersion: 2
-        x: 312
-        y: 0
-        width: 78
-        height: 58
+        x: 320
+        y: 14
+        width: 39
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -244,13 +249,14 @@ TextureImporter:
       name: Idle (78x58)_5
       rect:
         serializedVersion: 2
-        x: 390
-        y: 0
-        width: 78
-        height: 58
+        x: 398
+        y: 14
+        width: 39
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -265,13 +271,14 @@ TextureImporter:
       name: Idle (78x58)_6
       rect:
         serializedVersion: 2
-        x: 468
-        y: 0
-        width: 78
-        height: 58
+        x: 476
+        y: 14
+        width: 39
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -286,13 +293,14 @@ TextureImporter:
       name: Idle (78x58)_7
       rect:
         serializedVersion: 2
-        x: 546
-        y: 0
-        width: 78
-        height: 58
+        x: 554
+        y: 14
+        width: 39
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -307,13 +315,14 @@ TextureImporter:
       name: Idle (78x58)_8
       rect:
         serializedVersion: 2
-        x: 624
-        y: 0
-        width: 78
-        height: 58
+        x: 632
+        y: 14
+        width: 39
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -328,13 +337,14 @@ TextureImporter:
       name: Idle (78x58)_9
       rect:
         serializedVersion: 2
-        x: 702
-        y: 0
-        width: 78
-        height: 58
+        x: 710
+        y: 14
+        width: 39
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -349,13 +359,14 @@ TextureImporter:
       name: Idle (78x58)_10
       rect:
         serializedVersion: 2
-        x: 780
-        y: 0
-        width: 78
-        height: 58
+        x: 788
+        y: 14
+        width: 39
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -367,6 +378,7 @@ TextureImporter:
       edges: []
       weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
@@ -376,6 +388,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
       Idle (78x58)_0: -1148008588
       Idle (78x58)_1: -96464919
